@@ -1,0 +1,109 @@
+.hero{
+	background-image:url(../img/hero-bg.jpg);
+	background-position:center center;
+	background-size:cover;
+	padding-top:20vh;
+	color:white;
+	padding-bottom:25vh;
+}
+
+h1,h2,h3,h4,h5{
+	font-family:$header-font;
+}
+h1{
+	// color:$brand-primary;
+}
+
+.btn-book{
+	color:white;
+}
+.btn-book:hover{
+	background-color:darken($brand-color,10%);
+	color:white;
+}
+
+
+// ---------about section css------------- >
+
+
+.about-title{
+	background-image:url(../img/about.jpg);
+	background-size:cover;
+	background-position:top center;
+	min-height:40vw;
+	padding:0;
+}
+.about-overlay{
+	height:100%;	
+	width:100%;
+	background-color: rgba(0,0,0,0.3);
+	color:white;
+}
+.about-text{
+	padding:6vh;
+	padding-bottom:6vh;
+	@include media-breakpoint-up(md){
+		padding-bottom:16vh;
+		padding-top:10vh;
+	}
+}
+.pilot-members{
+	position:relative;
+}
+.pilot-member{
+	margin-bottom:1.5em;
+	box-shadow:6px 6px 15px 0 rgba(0,0,0,0.5);
+	@include media-breakpoint-up(md){
+		position:absolute;
+		top:-3em;
+		z-index:10;
+	}
+	
+}
+.pilot-block{
+	padding:2rem 0px;
+}
+.pilot-member-name{
+	font-family:$sans;
+	text-transform:uppercase;
+	margin-bottom:0.25em;
+}
+.pilot-member-job{
+	// color:white;
+}
+
+
+// ---------gallery section css------------- >
+.gallery{
+	margin-top:5em;
+	margin-bottom:5em;
+}
+.gallery-container{
+	background-color:#383838;
+	box-shadow:6px 6px 15px 0 rgba(0,0,0,0.5);
+	padding:7vh 0px;
+	color:white;
+}
+
+.gallery-container h2{
+	color:white;
+	margin-bottom:1em;
+}
+.gallery-cta{
+	margin-top:2em;
+}
+
+
+// ---------Our planes section css------------- >
+.plane{
+	box-shadow:5px 5px 10px 0 rgba(0,0,0,0.5);
+}
+.planes-title{
+	margin-bottom:7vh;
+}
+.plane-block{
+	padding:1.8em 0px;
+}
+
+
+

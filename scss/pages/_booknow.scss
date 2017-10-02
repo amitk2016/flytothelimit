@@ -1,0 +1,95 @@
+/* Booking-Form Style begins here..............................................................................................*/
+
+#form-main-box{
+	
+	margin-top: 50px;
+	padding:40px;
+	/*background-color: red;*/
+}
+#form-box{
+	
+	margin-top: 30px;
+	/*background-color: green;*/
+	margin:0 auto;
+	width: 70%;
+	text-align: center;
+	background:rgba(21,21,21,0.2);
+	padding:40px;
+}
+#form-box form{
+	text-align: right;
+}
+#form-box form fieldset legend{
+	font-size: 22px;
+	text-align:center;
+}
+#form-box div{
+	margin-bottom:20px;
+}
+#form-box div label{
+	margin-right: 10px;
+	font-size: 20px;
+}
+#form-box input,#booking{
+	width: 300px;
+	height:40px;
+	border-radius:4px;
+	border:none;
+	line-height: 1;
+	font-size: 14px;
+}
+#form{
+	width:60%;
+	margin:0 auto;
+}
+#flights,#planes,#origin,#destination,#flights-length,#post{
+	background: white;
+   width: 300px;
+   padding: 5px;
+   font-size: 16px;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+   height:40px;
+  /* -webkit-appearance: none;*/
+}
+#post{
+	width: 450px;
+	height:100px;
+	border-radius: 4px;
+}
+
+#no-passenger{
+	font-size: 10px;
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+// #booking{
+// 	letter-spacing:1px;
+// 	color: white;
+// 	font-size: 20px;
+// 	padding-top: 10px;
+//     border-radius: 4px;
+//     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+//     background: rgb(202, 60, 60);
+//     box-sizing: border-box;
+//     text-transform: uppercase;
+// }
+
+#booking{
+	font-size: 20px;
+}
+#booking span{
+	margin-right: 15px;
+}
+
+.error-space,#flights-message,#planes-message,#origin-message,#destination-message{
+	display:inline-block;
+	margin-left:0;
+	padding-top: 5px;
+	width:60%;
+	text-align:center;
+	font-weight: bolder;
+	color:$red;
+}
+

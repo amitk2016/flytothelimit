@@ -1,0 +1,14 @@
+.parallax{
+	display:none;
+	@include media-breakpoint-up(md){
+		display: block;
+		height:32vmax;
+		background-size:cover;
+		background-attachment:fixed;
+		background-position:center;
+	}	
+}
+
+.parallax-home{
+	background-image:url(../img/bg.jpg);
+}
